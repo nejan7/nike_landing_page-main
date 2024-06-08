@@ -2,7 +2,7 @@ import { arrowRight } from "../assets/icons";
 import Button from "../components/Button";
 import { shoes, statistics } from "../constants";
 import { bigShoe1 } from "../assets/images";
-import ShoeCard from "../constants/ShoeCard";
+import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 const Hero = () => {
   const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col 
+      className="xl:w-[90%] w-full  flex xl:flex-row flex-col 
     justify-center min-h-screen gap-10 max-container"
     >
       <div

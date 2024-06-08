@@ -4,8 +4,8 @@ const Button = ({label, iconURL}) => {
     px-7 py-4 font-montserrat
     text-lg leading-none bg-coral-red rounded-full text-white border-coral-red">
         {label}
-        <img src={iconURL} alt="arrow right icon" 
-        className="ml-2 rounded-full h-5 w-5 "/>
+        {iconURL && <img src={iconURL} alt="arrow right icon" 
+        className="ml-2 rounded-full h-5 w-5 "/>}
     </button>
   )
 }

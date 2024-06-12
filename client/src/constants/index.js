@@ -3,10 +3,10 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 
 //منو، میتونم موارد دلخواهم رو اضافه یا کم کنم
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Home", id: 1 },
+    { href: "#about-us", label: "About Us", id: 2 },
+    { href: "#products", label: "Products", id: 3 },
+    { href: "#contact-us", label: "Contact Us", id: 4 },
 ];
 
 export const shoes = [
